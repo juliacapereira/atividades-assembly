@@ -16,5 +16,5 @@ atividades desenvolvidas na aula de organização de sistemas computacionais.
 primeiro na mesma linha e depois um em cada linha.</h4>
 <h4>-atividade 5_02: reescrever o programa anterior, utilizando: 1. O registrador CX como contador; e 2. A instrução LOOP label no lugar das instruções DEC CX e JNZ label.</h4>
 <h4>-atividade 5_03: programa que exibe todas as letras maiúsculas e depois todas as minúsculas na tela.</h4>
-<h4>-atividade 5_04: crie um programa em linguagem assembly chamado que exibe todas as letras minúsculas na tela, exibindo 4 letras por linha.</h4>
+<h4>-atividade 5_04: crie um programa que exibe todas as letras minúsculas na tela, exibindo 4 letras por linha.</h4>
 <h4>-atividade 5_05: crie um programa que calcule a somatória de 5 números a serem lidos e imprima a somatória deles. Para testar o programa entre com números cuja a somatória seja no máximo 9.</h4>
