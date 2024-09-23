@@ -18,3 +18,6 @@ primeiro na mesma linha e depois um em cada linha.</h4>
 <h4>-atividade 5_03: programa que exibe todas as letras maiúsculas e depois todas as minúsculas na tela.</h4>
 <h4>-atividade 5_04: crie um programa que exibe todas as letras minúsculas na tela, exibindo 4 letras por linha.</h4>
 <h4>-atividade 5_05: crie um programa que calcule a somatória de 5 números a serem lidos e imprima a somatória deles. Para testar o programa entre com números cuja a somatória seja no máximo 9.</h4>
+
+<h4>-atividade 6_01: crie um programa em assembly que leia n caracteres enquanto for diferente de "enter". contar o número de caracteres e imprimir tantos “*” quanto for este número, como o comando WHILE.</h4>
+<h4>-atividade 6_02: crie um programa em assembly que leia n caracteres até que leia "enter". Contar o número de caracteres e imprimir tantos “*” quanto for este número, como o comando REPEAT.</h4>
