@@ -1,0 +1,93 @@
+TITLE prova
+.model small
+.stack 100h
+.DATA
+    msg1 db "Digite o dividendo:$"
+    msg2 db 13,10,"Digite o divisor:$"
+    msg3 db 13,10,"Quociente:$"
+    msg4 db 13,10,"Resto:$"
+.CODE
+    MAIN PROC
+        MOV AX,@DATA
+        MOV DS,AX
+
+        XOR CH,CH ;INICIA CH (QUOCIENTE) ZERADO
+
+        ;IMPRIME A MSG1 NA TELA
+        MOV AH,9
+        MOV DX, OFFSET msg1
+        INT 21H
+
+        ;LÊ O CARACTER INSERIDO
+        MOV AH,1
+        INT 21H
+        ;JOGA O CARACTER LIDO PARA BL (DIVIDENDO)
+        MOV BL,AL
+        ;SUBSTITUI O SUB BL,30H PARA REALIZAR A CONTA CORRETA DE ACORDO COM A TABELA ASCII
+        AND BL,0FH
+        
+        ;IMPRIME A MSG2 NA TELA
+        MOV AH,9
+        MOV DX,OFFSET MSG2
+        INT 21H                     
+
+        ;LÊ O CARACTER DIGITADO
+        MOV AH,1
+        INT 21H
+        ;MOVE O CARACTER LIDO PARA CL (DIVISOR)
+        MOV CL,AL
+        ;SUBSTITUI O SUB CL,30H PARA REALIZAR A CONTA CORRETA DE ACORDO COM A TABELA ASCII
+        AND CL,0FH
+
+CONTA1:
+        ;COMPARA CL COM BL (DIVISOR COM O DIVIDENDO)
+        CMP BL, CL
+        ;SALTA SE CL-DIVISOR FOR MENOR QUE BL-DIVIDENDO
+        JB CONTA2
+        ;SUBTRAI CL-DIVISOR DE BL-DIVIDENDO
+        SUB BL,CL 
+        ;AUMENTA 1 EM CH-QUOCIENTE
+        INC CH
+        ;COMPARA CL-DIVISOR COM BL-DIVIDENDO
+        CMP BL,CL
+        ;SALTA SE CL-DIVISOR MAIOR OU IGUAL A BL-DIVIDENDO
+        JAE CONTA1
+
+
+CONTA2:
+        ;IMPRIME A MSG3 NA TELA
+        MOV AH,9
+        MOV DX, OFFSET msg3
+        INT 21H
+
+        ;ACRESCENTA 30H A CH-QUOCIENTE PARA ENCONTRAR O CORRESPONDENTE NA TABELA ASCII
+        OR CH,30H
+
+        ;IMPRIME NA TELA O CH-QUOCIENTE
+        MOV AH,2
+        MOV DL,CH
+        INT 21H
+
+        ;IMPRIME NA TELA A MSG4
+        MOV AH,9
+        MOV DX, OFFSET msg4
+        INT 21H
+
+        ;ACRESCENTA 30H A BL
+        OR BL, 30H
+        ;JOGA BL-DIVIDENDO QUE FOI SUBTRAIDO ENTÃO AGORA REPRESENTA O RESTO PARA DL
+        MOV DL, BL
+        ;IMPRIME NA TELA DL (QUE RECEBEU O VALOR DO RESTO)
+        MOV AH, 2
+        INT 21H
+
+        ;FINALIZA O CODIGO
+        FIM:
+        mov ah,4ch
+        int 21H
+    
+        main endp
+        END MAIN
+
+
+

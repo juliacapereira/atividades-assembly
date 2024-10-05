@@ -21,3 +21,7 @@ primeiro na mesma linha e depois um em cada linha.</h4>
 
 <h4>-atividade 6_01: crie um programa em assembly que leia n caracteres enquanto for diferente de "enter". contar o número de caracteres e imprimir tantos “*” quanto for este número, como o comando WHILE.</h4>
 <h4>-atividade 6_02: crie um programa em assembly que leia n caracteres até que leia "enter". Contar o número de caracteres e imprimir tantos “*” quanto for este número, como o comando REPEAT.</h4>
+
+<h4>-atividade 7_01: crie um programa em linguagem assembly que realize a divisão inteira entre dois número (de 0 a 9) por meio de subtrações sucessivas e exiba como resultado o quociente e o resto da divisão. (versão usando and e or).</h4>
+<h4>-atividade 7_01meu: crie um programa em linguagem assembly que realize a divisão inteira entre dois número (de 0 a 9) por meio de subtrações sucessivas e exiba como resultado o quociente e o resto da divisão. (versão usando add e sub).</h4>
+<h4>-atividade7_02: crie um programa em linguagem assembly que realize a multiplicação entre dois números (de 0 a 9) por meio de somas sucessivas e exiba o resultado da multiplicação. OBS – O programa deve ser comentado. Suponha que as entradas não gerarão um produto com 2 dígitos.</h4>
