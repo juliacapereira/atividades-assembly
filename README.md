@@ -25,3 +25,9 @@ primeiro na mesma linha e depois um em cada linha.</h4>
 <h4>-atividade 7_01: crie um programa em linguagem assembly que realize a divisão inteira entre dois número (de 0 a 9) por meio de subtrações sucessivas e exiba como resultado o quociente e o resto da divisão. (versão usando and e or).</h4>
 <h4>-atividade 7_01meu: crie um programa em linguagem assembly que realize a divisão inteira entre dois número (de 0 a 9) por meio de subtrações sucessivas e exiba como resultado o quociente e o resto da divisão. (versão usando add e sub).</h4>
 <h4>-atividade7_02: crie um programa em linguagem assembly que realize a multiplicação entre dois números (de 0 a 9) por meio de somas sucessivas e exiba o resultado da multiplicação. OBS – O programa deve ser comentado. Suponha que as entradas não gerarão um produto com 2 dígitos.</h4>
+
+<h4>-atividade 8_01: fazer um programa que leia um número binário do teclado. </h4>
+<h4>-atividade 8_02: fazer um programa que imprima um número binário. </h4>
+<h4>-atividade 8_03: fazer um programa que leia um número hexadecimal do teclado. </h4>
+<h4>-atividade 8_04: fazer um programa que imprima um número hexadecimal do teclado. </h4>
+<h4>como a atividade 8_04 é uma "continuação" ou uma implementação a 03, foram montadas juntas. </h4>
