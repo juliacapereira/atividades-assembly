@@ -31,3 +31,9 @@ primeiro na mesma linha e depois um em cada linha.</h4>
 <h4>-atividade 8_03: fazer um programa que leia um número hexadecimal do teclado. </h4>
 <h4>-atividade 8_04: fazer um programa que imprima um número hexadecimal do teclado. </h4>
 <h4>como a atividade 8_04 é uma "continuação" ou uma implementação a 03, foram montadas juntas. </h4>
+
+<h4>-atividade 9_01A: programa usando vetor e procedimento que exemplifica o endereçamento por base usando lea bx,vetor. imprime o vetor inserido em .data. </h4>
+<h4>-atividade 9_01B: programa usando vetor e procedimento que exemplifica o endereçamento por base usando mov dl,[bx] e inc bx. imprime o vetor inserido em .data. </h4>
+<h4>-atividade 9_02A: programa usando vetor e procedimento que exemplifica o endereçamento indexado usando lea si,vetor. imprime o vetor inserido em .data. </h4>
+<h4>-atividade 9_02B: programa usando vetor e procedimento que exemplifica o endereçamento indexado usando mov dl, [si]. imprime o vetor inserido em .data. </h4>
+<h4>-atividade 9_03: escreva um programa que inverta a ordem de um vetor de 7 posições, isto é, o primeiro elemento se tornará o último, o último se tornará o primeiro e assim sucessivamente. ler o vetor e imprimir depois de inverter a ordem. NÃO UTILIZAR UM VETOR AUXILIAR. utilizar BX, SI e DI nas diversas manipulação de vetor (ler, inverter e imprimir). </h4>
