@@ -36,4 +36,13 @@ primeiro na mesma linha e depois um em cada linha.</h4>
 <h4>-atividade 9_01B: programa usando vetor e procedimento que exemplifica o endereçamento por base usando mov dl,[bx] e inc bx. imprime o vetor inserido em .data. </h4>
 <h4>-atividade 9_02A: programa usando vetor e procedimento que exemplifica o endereçamento indexado usando lea si,vetor. imprime o vetor inserido em .data. </h4>
 <h4>-atividade 9_02B: programa usando vetor e procedimento que exemplifica o endereçamento indexado usando mov dl, [si]. imprime o vetor inserido em .data. </h4>
-<h4>-atividade 9_03: escreva um programa que inverta a ordem de um vetor de 7 posições, isto é, o primeiro elemento se tornará o último, o último se tornará o primeiro e assim sucessivamente. ler o vetor e imprimir depois de inverter a ordem. NÃO UTILIZAR UM VETOR AUXILIAR. utilizar BX, SI e DI nas diversas manipulação de vetor (ler, inverter e imprimir). </h4>
+<h4>-atividade 9_03: fazer um programa que inverta a ordem de um vetor de 7 posições, isto é, o primeiro elemento se tornará o último, o último se tornará o primeiro e assim sucessivamente. ler o vetor e imprimir depois de inverter a ordem. NÃO UTILIZAR UM VETOR AUXILIAR. utilizar BX, SI e DI nas diversas manipulação de vetor (ler, inverter e imprimir). </h4>
+
+<h4>-atividade 10_01: fazer um programa que imprima a matriz abaixo, como uma matriz (linhas e colunas). Usar procedimentos e macros.</h4>
+<h4>MATRIZ4X4 DB 1,2,3,4</h4>
+<h4>DB 4,3,2,1</h4>
+<h4>DB 5,6,7,8</h4>
+<h4>DB 8,7,6,5</h4>
+<h4>-atividade 10_02: fazer um programa que leia todos os elementos de uma matriz 4 X 4 de números inteirosentre 0 e 6, inclusive. o programa deverá ler a matriz, imprimir a matriz lida, fazer a soma dos elementos, armazenar e imprimir esta soma. usar um procedimento para ler, outro para somar e outro para imprimir. usar procedimentos e macros.</h4>
+
+<h4>-atividade 11_01: fazer um programa que permita a entrada em qualquer uma das bases (binária, hexadecimal e decimal) e a saída em qualquer uma das bases. o programa deverá perguntar em que base será a entrada do número e em que base será a saída do número. usar procedimentos e macros.</h4>
